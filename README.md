@@ -4,7 +4,8 @@
    Migrates an Azure VM from current VNet to a new VNet in Azure by creating a new VM in new VNet retaining the original VMs configuration and data disks.
 
 .DESCRIPTION
-        Steps in move VM to new VNet: 
+        Steps in move VM to new VNet:
+        
            - Gathers info on existing VM, VNet, and subnet.
            - Removes the original VM while saving all data disks and VM info.
            - Creates VM configuration for new VM, creates nic for new VM, and new availability set.  
